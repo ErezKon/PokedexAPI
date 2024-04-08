@@ -13,16 +13,16 @@ namespace PokedexAPI.PokeDex
         {
             Task.Factory.StartNew(() =>
             {
-                using var http = new HttpClient();
-                Log("Pokedex", "Loading pokedex..");
-                var getPokemon = http.GetAsync(pokedexUrl);
-                getPokemon.Wait();
-                var getPokemonResult = getPokemon.Result;
-                var getPokemonTask = getPokemonResult.Content.ReadAsStringAsync();
-                getPokemonTask.Wait();
-                var pokemonRes = getPokemonTask.Result;
+                //using var http = new HttpClient();
+                //Log("Pokedex", "Loading pokedex..");
+                //var getPokemon = http.GetAsync(pokedexUrl);
+                //getPokemon.Wait();
+                //var getPokemonResult = getPokemon.Result;
+                //var getPokemonTask = getPokemonResult.Content.ReadAsStringAsync();
+                //getPokemonTask.Wait();
+                //var pokemonRes = getPokemonTask.Result;
 
-                //var pokemonRes = File.ReadAllText(Path.Combine(Directory.GetCurrentDirectory(), "Mocks", "pokedex.json"));
+                var pokemonRes = File.ReadAllText(Path.Combine(Directory.GetCurrentDirectory(), "Mocks", "pokedex.json"));
 
                 var pokemons = JsonConvert.DeserializeObject<List<ParsedPokemon>>(pokemonRes);
                 foreach (var pokemon in pokemons)
