@@ -1,0 +1,11 @@
+version: "3"
+services:
+ pokedex-api:
+    container_name: pokedex-api
+    build: .
+    restart: always
+    volumes:
+      - /etc/ssl/certs:/etc/ssl/certs
+    ports:
+      - "5228:5228"
+      - "7228:7228"
