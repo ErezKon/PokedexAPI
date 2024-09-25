@@ -38,10 +38,10 @@ namespace PokedexAPI.PokeDex
                 var detailedPokedexJson = File.ReadAllText(dexPath);
 
                 var dex = JsonConvert.DeserializeObject<Dictionary<int, Pokemon>>(detailedPokedexJson);
-                var pokedex = dex;
-                foreach (var pokemon in pokedex)
+                foreach (var entry in dex)
                 {
-                    reverseDex.Add(pokemon.Value.Name, pokemon.Key);
+                    pokedex.Add(entry.Key, entry.Value);
+                    reverseDex.Add(entry.Value.Name, entry.Key);
                 }
                 //foreach (var pokemon in dex)
                 //{
