@@ -18,5 +18,11 @@ namespace PokedexAPI.PokeDex
 
         [JsonProperty("type")]
         public List<string> Type { get; set; }
+
+        [JsonProperty("height")]
+        public double Height { get; set; }
+
+        [JsonProperty("weight")]
+        public double Weight { get; set; }
     }
 }

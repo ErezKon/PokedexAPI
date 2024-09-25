@@ -7,5 +7,6 @@
         public string Image { get; set; }
         public List<string> Type { get; set; }
         public List<string> Weakness { get; set; }
+        public PokemonDetails? Details { get; set; }
     }
 }
