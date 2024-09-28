@@ -11,6 +11,7 @@
         public double? CatchRate { get; set; }
         public PokemonStats Stats { get; set; }
         public int? EvolvesFrom { get; set; }
+        public int? EvolvesTo { get; set; }
         public double? MaleRarity { get; set; }
     }
 }
