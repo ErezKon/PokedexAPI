@@ -11,5 +11,19 @@
         public double Speed { get; set; }
         public double Weight { get; set; }
         public double Height { get; set; }
+
+        public PokemonStats Clone()
+        {
+            return new PokemonStats
+            {
+                Attack = Attack,
+                HP = HP,
+                Defence = Defence,
+                SpecialAttack = SpecialAttack,
+                SpecialDefence = SpecialDefence,
+                Speed = Speed,
+                Weight = Weight
+            };
+        }
     }
 }

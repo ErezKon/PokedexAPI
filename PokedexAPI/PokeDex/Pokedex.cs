@@ -37,7 +37,11 @@ namespace PokedexAPI.PokeDex
 
         public Pokemon GetDetailedPokemon(int id, bool loadPrevious = true, bool loadNext = true)
         {
-            var pokemon = pokedex[id];
+            if(!pokedex.ContainsKey(id))
+            {
+                return null;
+            }
+            var pokemon = pokedex[id].Clone();
             if(loadPrevious && pokemon.Details.EvolvesFrom.HasValue)
             {
                 pokemon.Details.PrevEvolution = GetDetailedPokemon(pokemon.Details.EvolvesFrom.Value, loadPrevious, false);

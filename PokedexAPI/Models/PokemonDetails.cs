@@ -16,5 +16,24 @@
 
         public Pokemon? NextEvolution { get; set; }
         public Pokemon? PrevEvolution { get; set; }
+
+        public PokemonDetails Clone()
+        {
+            return new PokemonDetails
+            {
+                IsBaby = IsBaby,
+                IsLegendary = IsLegendary,
+                IsMythical = IsMythical,
+                HasGenderDifference = HasGenderDifference,
+                Descriptions = Descriptions.Select(d => d.Clone()).ToList(),
+                Generation = Generation,
+                Stats = Stats.Clone(),
+                EvolvesFrom = EvolvesFrom,
+                EvolvesTo = EvolvesTo,
+                MaleRarity = MaleRarity,
+                NextEvolution = NextEvolution?.Clone(),
+                PrevEvolution = PrevEvolution?.Clone(),
+            };
+        }
     }
 }
