@@ -13,5 +13,8 @@
         public int? EvolvesFrom { get; set; }
         public int? EvolvesTo { get; set; }
         public double? MaleRarity { get; set; }
+
+        public Pokemon? NextEvolution { get; set; }
+        public Pokemon? PrevEvolution { get; set; }
     }
 }

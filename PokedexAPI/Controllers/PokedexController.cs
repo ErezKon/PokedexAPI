@@ -28,7 +28,8 @@ namespace PokedexAPI.Controllers
         [HttpGet("Get/{id}")]
         public Pokemon Get(int id)
         {
-            return _pokedex.Get(id);
+            var ret = _pokedex.GetDetailedPokemon(id);
+            return ret;
         }
     }
 }
