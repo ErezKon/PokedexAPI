@@ -13,98 +13,17 @@ namespace PokedexAPI.PokeDex
         private static readonly Func<int, string> pokedevsSpeciesUrl = (int id) => @$"https://ex.traction.one/pokedex/pokemon/{id}";
         private static readonly Dictionary<int, Pokemon> pokedex = new();
         private static readonly Dictionary<string, int> reverseDex = new();
-        private int alreadyLoaded = 0;
-        private int newlyLoaded = 0;
         public Pokedex()
         {
-            Task.Factory.StartNew(() =>
+            var dexPath = Path.Combine(Directory.GetCurrentDirectory(), "Mocks", "detailed-pokedex.json");
+            var detailedPokedexJson = File.ReadAllText(dexPath);
+
+            var dex = JsonConvert.DeserializeObject<Dictionary<int, Pokemon>>(detailedPokedexJson);
+            foreach (var entry in dex)
             {
-                //using var http = new HttpClient();
-                //Log("Pokedex", "Loading pokedex..");
-                //var getPokemon = http.GetAsync(pokedexUrl);
-                //getPokemon.Wait();
-                //var getPokemonResult = getPokemon.Result;
-                //var getPokemonTask = getPokemonResult.Content.ReadAsStringAsync();
-                //getPokemonTask.Wait();
-                //var pokemonRes = getPokemonTask.Result;
-
-                var pokemonRes = File.ReadAllText(Path.Combine(Directory.GetCurrentDirectory(), "Mocks", "pokedex.json"));
-
-                var pokemons = JsonConvert.DeserializeObject<List<ParsedPokemon>>(pokemonRes)
-                .GroupBy(p => p.Id)
-                .ToDictionary(p => p.Key, p => p.First());
-
-                var dexPath = Path.Combine(Directory.GetCurrentDirectory(), "Mocks", "detailed-pokedex.json");
-                var detailedPokedexJson = File.ReadAllText(dexPath);
-
-                var dex = JsonConvert.DeserializeObject<Dictionary<int, Pokemon>>(detailedPokedexJson);
-                foreach (var entry in dex)
-                {
-                    pokedex.Add(entry.Key, entry.Value);
-                    reverseDex.Add(entry.Value.Name, entry.Key);
-                }
-                //foreach (var pokemon in dex)
-                //{
-                //    pokemon.Value.Details.Stats ??= new();
-                //    pokemon.Value.Details.Stats.Height = pokemons[pokemon.Key].Height;
-                //    pokemon.Value.Details.Stats.Weight = pokemons[pokemon.Key].Weight;
-                //}
-                /*
-                foreach (var pokemon in pokemons)
-                {
-                    if (pokedex.ContainsKey(pokemon.Id))
-                    {
-                        continue;
-                    }
-                    Log("Pokedex", $"Added pokemon {pokemon.Id}:{pokemon.Name}");
-                    var parsedPokemon = new Pokemon
-                    {
-                        ID = pokemon.Id,
-                        Name = pokemon.Name,
-                        Image = pokemon.Image,
-                        Type = pokemon.Type.Select(tp =>
-                        {
-                            return $"{tp[0].ToString().ToUpper()}{tp.Substring(1, tp.Length - 1)}";
-                        })
-                        .ToList(),
-                        Weakness = pokemon.Weakness,
-                        Details = null
-                    };
-                    pokedex.Add(pokemon.Id, parsedPokemon);
-                    reverseDex.Add(pokemon.Name.ToLower(), pokemon.Id);
-                }
-                
-                */
-
-                //foreach (var pokemon in dex)
-                //{
-                //    try
-                //    {
-                //        if(LoadPokemonDetails(pokemon.Value))
-                //        {
-                //            Thread.Sleep(5_000);
-                //        }
-                //    }
-                //    catch (ArgumentOutOfRangeException aex)
-                //    {
-                //        break;
-                //    }
-                //    catch (Exception ex)
-                //    {
-                //        //Thread.Sleep(2000);
-                //        continue;
-                //    }
-                //}
-
-                //Parallel.ForEach(dex, (pokemon) =>
-                //{
-                //    LoadPokemonDetails(pokemon.Value);
-                //});
-                //var detailedJson = JsonConvert.SerializeObject(dex, Formatting.Indented);
-                //System.IO.File.WriteAllText(dexPath, detailedJson);
-                //var s = $"{newlyLoaded}, {alreadyLoaded}";
-            });
-
+                pokedex.Add(entry.Key, entry.Value);
+                reverseDex.Add(entry.Value.Name, entry.Key);
+            }
         }
 
         public Pokemon Get(int index)
@@ -114,6 +33,22 @@ namespace PokedexAPI.PokeDex
                 return pokedex[index];
             }
             return null;
+        }
+
+        public Pokemon GetDetailedPokemon(int id, bool loadPrevious = true, bool loadNext = true)
+        {
+            var pokemon = pokedex[id];
+            if(loadPrevious && pokemon.Details.EvolvesFrom.HasValue)
+            {
+                pokemon.Details.PrevEvolution = GetDetailedPokemon(pokemon.Details.EvolvesFrom.Value, loadPrevious, false);
+            }
+            if (loadNext && pokemon.Details.EvolvesTo.HasValue)
+            {
+                pokemon.Details.NextEvolution = GetDetailedPokemon(pokemon.Details.EvolvesTo.Value, false, loadNext);
+            }
+
+            return pokemon;
+
         }
 
         public List<Pokemon> GetAll()
@@ -151,87 +86,6 @@ namespace PokedexAPI.PokeDex
             return reverseDex[normalized];
         }
         public Pokemon GetPokemonByName(string name) => pokedex[GetPokemonId(name)];
-        //public void LoadPokemonDetails(Pokemon pokemon)
-        //{
-        //    var url = pokeapiSpeciesUrl(pokemon.ID);
-        //    using var http = new HttpClient();
-        //    var getPokemon = http.GetAsync(url);
-        //    getPokemon.Wait();
-        //    var getPokemonResult = getPokemon.Result;
-        //    var getPokemonTask = getPokemonResult.Content.ReadAsStringAsync();
-        //    getPokemonTask.Wait();
-        //    string pokemonRes = getPokemonTask.Result;
-        //    dynamic parsedResult = JsonConvert.DeserializeObject(pokemonRes);
-        //    if (parsedResult == null)
-        //    {
-        //        return;
-        //    }
-        //    pokemon.Details ??= new();
-        //    pokemon.Details.IsBaby = parsedResult["is_baby"];
-        //    pokemon.Details.IsLegendary = parsedResult["is_legendary"];
-        //    pokemon.Details.IsMythical = parsedResult["is_mythical"];
-        //    pokemon.Details.HasGenderDifference = parsedResult["has_gender_differences"];
-        //    var entries = ((Newtonsoft.Json.Linq.JArray)parsedResult["flavor_text_entries"]);
-        //    var descriptions = entries
-        //        .Where(d => d["language"]["name"].ToString() == "en")
-        //        .Select(d => new PokemonDescription
-        //        {
-        //            Description = d["flavor_text"].ToString().Replace("\n", " ").Replace("\f", " "),
-        //            Version = d["version"]["name"].ToString()
-        //        })
-        //        .ToList();
-        //    pokemon.Details.Descriptions = descriptions;
-        //    var evolvesFrom = parsedResult["evolves_from_species"];
-        //    if(evolvesFrom != null)
-        //    {
-        //        string previousMonUrl = evolvesFrom["url"];
-        //        var previousMon = int.Parse(previousMonUrl.Split("/", StringSplitOptions.RemoveEmptyEntries).Last());
-        //        pokemon.Details.EvolvesFrom = previousMon;
-        //        //var mon = GetPokemonByName(previousMon);
-        //        //if (mon != null)
-        //        //{
-        //        //    pokemon.Details.EvolvesFrom = mon.ID;
-        //        //}
-        //    }
-        //}
-
-        public bool LoadPokemonDetails(Pokemon pokemon)
-        {
-            if(pokemon.Details.Stats.HP != 0)
-            {
-                alreadyLoaded++;
-                return false;
-            }
-            var url = pokedevsSpeciesUrl(pokemon.ID);
-            using var http = new HttpClient();
-            var getPokemon = http.GetAsync(url);
-            getPokemon.Wait();
-            var getPokemonResult = getPokemon.Result;
-            var getPokemonTask = getPokemonResult.Content.ReadAsStringAsync();
-            getPokemonTask.Wait();
-            var pokemonRes = getPokemonTask.Result;
-
-            if(pokemonRes.Contains("Too many requests, please try again later."))
-            {
-                throw new ArgumentOutOfRangeException();
-            }
-
-            var parsedResultArr = JsonConvert.DeserializeObject<List<PokedevsRaw>>(pokemonRes);
-            var parsedResult = parsedResultArr.First();
-
-            var height = parsedResult.Height.Split(" ").First();
-            pokemon.Details.Stats.Height = double.Parse(height);
-            pokemon.Details.Stats.Weight = double.Parse(parsedResult.Weight.Split(" ").First());
-            pokemon.Details.Stats.HP = parsedResult.BaseStats.Hp;
-            pokemon.Details.Stats.Attack = parsedResult.BaseStats.Attack;
-            pokemon.Details.Stats.Defence = parsedResult.BaseStats.Defense;
-            pokemon.Details.Stats.SpecialAttack = parsedResult.BaseStats.SpAtk;
-            pokemon.Details.Stats.SpecialDefence = parsedResult.BaseStats.SpDef;
-            pokemon.Details.CatchRate = double.Parse(((string)parsedResult.Training.CatchRate).Split(" ").First());
-            pokemon.Details.MaleRarity = double.Parse(((string)parsedResult.Breeding.Gender).Split(" ").First().Replace("%", string.Empty));
-            newlyLoaded++;
-            return true;
-        }
     }
 
 }
