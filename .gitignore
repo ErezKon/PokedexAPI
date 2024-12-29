@@ -349,3 +349,18 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+/PokedexAPI/obj/Debug/net6.0/ref/PokedexAPI.dll
+/PokedexAPI/obj/Debug/net6.0/refint/PokedexAPI.dll
+/PokedexAPI/obj/Debug/net6.0/staticwebassets/msbuild.build.PokedexAPI.props
+/PokedexAPI/obj/Debug/net6.0/apphost.exe
+/PokedexAPI/obj/Debug/net6.0/PokedexAPI.AssemblyInfo.cs
+/PokedexAPI/obj/Debug/net6.0/PokedexAPI.AssemblyInfoInputs.cache
+/PokedexAPI/obj/Debug/net6.0/PokedexAPI.assets.cache
+/PokedexAPI/obj/Debug/net6.0/PokedexAPI.csproj.AssemblyReference.cache
+/PokedexAPI/obj/Debug/net6.0/PokedexAPI.csproj.CopyComplete
+/PokedexAPI/obj/Debug/net6.0/PokedexAPI.csproj.CoreCompileInputs.cache
+/PokedexAPI/obj/Debug/net6.0/PokedexAPI.csproj.FileListAbsolute.txt
+/PokedexAPI/obj/Debug/net6.0/PokedexAPI.GeneratedMSBuildEditorConfig.editorconfig
+/.vs/PokedexAPI/config/applicationhost.config
+/.vs/PokedexAPI/DesignTimeBuild/.dtbcache.v2
+/.vs/PokedexAPI/v17/.suo
