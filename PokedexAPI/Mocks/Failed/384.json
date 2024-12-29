@@ -1,0 +1,45 @@
+[
+  {
+    "number": 384,
+    "name": "Rayquaza",
+    "gen": 3,
+    "species": "Sky High Pokémon",
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "abilities": [
+      {
+        "name": "Air Lock",
+        "description": "Eliminates the effects of weather.",
+        "hidden": false
+      }
+    ],
+    "height": "7.0 m (23′00″)",
+    "weight": "206.5 kg (455.3 lbs)",
+    "mega": true,
+    "baseStats": {
+      "hp": 105,
+      "attack": 150,
+      "defense": 90,
+      "spAtk": 150,
+      "spDef": 90,
+      "speed": 95
+    },
+    "training": {
+      "evYield": "2 Attack, 1 Sp. Atk",
+      "catchRate": "45 (5.9% with PokéBall, full HP)",
+      "baseFriendship": "0 (lower than normal)",
+      "baseExp": "340",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "120 (30,584–30,840 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/rayquaza.png"
+  }
+]

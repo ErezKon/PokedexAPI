@@ -1,0 +1,44 @@
+[
+  {
+    "number": 896,
+    "name": "Glastrier",
+    "gen": 8,
+    "species": "Wild Horse Pokémon",
+    "types": [
+      "Ice"
+    ],
+    "abilities": [
+      {
+        "name": "Chilling Neigh",
+        "description": "Boosts Attack after knocking out a Pokémon.",
+        "hidden": false
+      }
+    ],
+    "height": "2.2 m (7′03″)",
+    "weight": "800.0 kg (1763.7 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 100,
+      "attack": 145,
+      "defense": 130,
+      "spAtk": 65,
+      "spDef": 110,
+      "speed": 30
+    },
+    "training": {
+      "evYield": "3 Attack",
+      "catchRate": "3 (0.4% with PokéBall, full HP)",
+      "baseFriendship": "35 (lower than normal)",
+      "baseExp": "290",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "120 (30,584–30,840 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/glastrier.png"
+  }
+]

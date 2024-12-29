@@ -1,0 +1,45 @@
+[
+  {
+    "number": 989,
+    "name": "Sandy Shocks",
+    "gen": 9,
+    "species": "Paradox Pokémon",
+    "types": [
+      "Electric",
+      "Ground"
+    ],
+    "abilities": [
+      {
+        "name": "Protosynthesis",
+        "description": "Raises highest stat in harsh sunlight, or if holding Booster Energy.",
+        "hidden": false
+      }
+    ],
+    "height": "2.3 m (7′07″)",
+    "weight": "60.0 kg (132.3 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 85,
+      "attack": 81,
+      "defense": 97,
+      "spAtk": 121,
+      "spDef": 85,
+      "speed": 101
+    },
+    "training": {
+      "evYield": "3 Sp. Atk",
+      "catchRate": "30 (3.9% with PokéBall, full HP)",
+      "baseFriendship": "0 (lower than normal)",
+      "baseExp": "285",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "50 (12,594–12,850 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/sandy-shocks.png"
+  }
+]

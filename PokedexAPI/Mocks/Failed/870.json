@@ -1,0 +1,50 @@
+[
+  {
+    "number": 870,
+    "name": "Falinks",
+    "gen": 8,
+    "species": "Formation Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "abilities": [
+      {
+        "name": "Battle Armor",
+        "description": "The Pokémon is protected against critical hits.",
+        "hidden": false
+      },
+      {
+        "name": "Defiant",
+        "description": "Sharply raises Attack when the Pokémon's stats are lowered.",
+        "hidden": true
+      }
+    ],
+    "height": "3.0 m (9′10″)",
+    "weight": "62.0 kg (136.7 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 65,
+      "attack": 100,
+      "defense": 100,
+      "spAtk": 70,
+      "spDef": 60,
+      "speed": 75
+    },
+    "training": {
+      "evYield": "2 Attack, 1 Sp. Def",
+      "catchRate": "45 (5.9% with PokéBall, full HP)",
+      "baseFriendship": "50 (normal)",
+      "baseExp": "165",
+      "growthRate": "Medium Fast"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Fairy",
+        "Mineral"
+      ],
+      "eggCycles": "25 (6,169–6,425 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/falinks.png"
+  }
+]

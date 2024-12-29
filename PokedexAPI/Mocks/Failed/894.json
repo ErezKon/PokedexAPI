@@ -1,0 +1,44 @@
+[
+  {
+    "number": 894,
+    "name": "Regieleki",
+    "gen": 8,
+    "species": "Electron Pokémon",
+    "types": [
+      "Electric"
+    ],
+    "abilities": [
+      {
+        "name": "Transistor",
+        "description": "Powers up Electric-type moves.",
+        "hidden": false
+      }
+    ],
+    "height": "1.2 m (3′11″)",
+    "weight": "145.0 kg (319.7 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 80,
+      "attack": 100,
+      "defense": 50,
+      "spAtk": 100,
+      "spDef": 50,
+      "speed": 200
+    },
+    "training": {
+      "evYield": "3 Speed",
+      "catchRate": "3 (0.4% with PokéBall, full HP)",
+      "baseFriendship": "35 (lower than normal)",
+      "baseExp": "290",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "120 (30,584–30,840 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/regieleki.png"
+  }
+]

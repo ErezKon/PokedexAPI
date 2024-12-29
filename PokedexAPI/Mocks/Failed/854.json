@@ -1,0 +1,50 @@
+[
+  {
+    "number": 854,
+    "name": "Sinistea",
+    "gen": 8,
+    "species": "Black Tea Pokémon",
+    "types": [
+      "Ghost"
+    ],
+    "abilities": [
+      {
+        "name": "Weak Armor",
+        "description": "Physical attacks lower Defense and raise Speed.",
+        "hidden": false
+      },
+      {
+        "name": "Cursed Body",
+        "description": "May disable a move used on the Pokémon.",
+        "hidden": true
+      }
+    ],
+    "height": "0.1 m (0′04″)",
+    "weight": "0.2 kg (0.4 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 45,
+      "spAtk": 74,
+      "spDef": 54,
+      "speed": 50
+    },
+    "training": {
+      "evYield": "1 Sp. Atk",
+      "catchRate": "120 (15.7% with PokéBall, full HP)",
+      "baseFriendship": "50 (normal)",
+      "baseExp": "62",
+      "growthRate": "Medium Fast"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Amorphous",
+        "Mineral"
+      ],
+      "eggCycles": "20 (4,884–5,140 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/sinistea.png"
+  }
+]

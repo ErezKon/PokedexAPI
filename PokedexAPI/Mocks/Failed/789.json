@@ -1,0 +1,44 @@
+[
+  {
+    "number": 789,
+    "name": "Cosmog",
+    "gen": 7,
+    "species": "Nebula Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "abilities": [
+      {
+        "name": "Unaware",
+        "description": "Ignores any stat changes in the Pokémon.",
+        "hidden": false
+      }
+    ],
+    "height": "0.2 m (0′08″)",
+    "weight": "0.1 kg (0.2 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 43,
+      "attack": 29,
+      "defense": 31,
+      "spAtk": 29,
+      "spDef": 31,
+      "speed": 37
+    },
+    "training": {
+      "evYield": "1 HP",
+      "catchRate": "45 (5.9% with PokéBall, full HP)",
+      "baseFriendship": "0 (lower than normal)",
+      "baseExp": "40",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "120 (30,584–30,840 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/cosmog.png"
+  }
+]

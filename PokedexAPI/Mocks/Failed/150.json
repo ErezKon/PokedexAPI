@@ -1,0 +1,49 @@
+[
+  {
+    "number": 150,
+    "name": "Mewtwo",
+    "gen": 1,
+    "species": "Genetic Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "abilities": [
+      {
+        "name": "Pressure",
+        "description": "The Pokémon raises the foe's PP usage.",
+        "hidden": false
+      },
+      {
+        "name": "Unnerve",
+        "description": "Makes the foe nervous and unable to eat Berries.",
+        "hidden": true
+      }
+    ],
+    "height": "2.0 m (6′07″)",
+    "weight": "122.0 kg (269.0 lbs)",
+    "mega": true,
+    "baseStats": {
+      "hp": 106,
+      "attack": 110,
+      "defense": 90,
+      "spAtk": 154,
+      "spDef": 90,
+      "speed": 130
+    },
+    "training": {
+      "evYield": "3 Sp. Atk",
+      "catchRate": "3 (0.4% with PokéBall, full HP)",
+      "baseFriendship": "0 (lower than normal)",
+      "baseExp": "340",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "120 (30,584–30,840 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/mewtwo.png"
+  }
+]

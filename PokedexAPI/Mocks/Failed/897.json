@@ -1,0 +1,44 @@
+[
+  {
+    "number": 897,
+    "name": "Spectrier",
+    "gen": 8,
+    "species": "Swift Horse Pokémon",
+    "types": [
+      "Ghost"
+    ],
+    "abilities": [
+      {
+        "name": "Grim Neigh",
+        "description": "Boosts Special Attack after knocking out a Pokémon.",
+        "hidden": false
+      }
+    ],
+    "height": "2.0 m (6′07″)",
+    "weight": "44.5 kg (98.1 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 100,
+      "attack": 65,
+      "defense": 60,
+      "spAtk": 145,
+      "spDef": 80,
+      "speed": 130
+    },
+    "training": {
+      "evYield": "3 Sp. Atk",
+      "catchRate": "3 (0.4% with PokéBall, full HP)",
+      "baseFriendship": "35 (lower than normal)",
+      "baseExp": "290",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "120 (30,584–30,840 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/spectrier.png"
+  }
+]

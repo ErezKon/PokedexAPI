@@ -1,0 +1,45 @@
+[
+  {
+    "number": 988,
+    "name": "Slither Wing",
+    "gen": 9,
+    "species": "Paradox Pokémon",
+    "types": [
+      "Bug",
+      "Fighting"
+    ],
+    "abilities": [
+      {
+        "name": "Protosynthesis",
+        "description": "Raises highest stat in harsh sunlight, or if holding Booster Energy.",
+        "hidden": false
+      }
+    ],
+    "height": "3.2 m (10′06″)",
+    "weight": "92.0 kg (202.8 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 85,
+      "attack": 135,
+      "defense": 79,
+      "spAtk": 85,
+      "spDef": 105,
+      "speed": 81
+    },
+    "training": {
+      "evYield": "3 Attack",
+      "catchRate": "30 (3.9% with PokéBall, full HP)",
+      "baseFriendship": "0 (lower than normal)",
+      "baseExp": "285",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "50 (12,594–12,850 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/slither-wing.png"
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "number": 793,
+    "name": "Nihilego",
+    "codename": "UB-01 Symbiont",
+    "gen": 7,
+    "species": "Parasite Pokémon",
+    "types": [
+      "Rock",
+      "Poison"
+    ],
+    "abilities": [
+      {
+        "name": "Beast Boost",
+        "description": "The Pokémon boosts its most proficient stat each time it knocks out a Pokémon.",
+        "hidden": false
+      }
+    ],
+    "height": "1.2 m (3′11″)",
+    "weight": "55.5 kg (122.4 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 109,
+      "attack": 53,
+      "defense": 47,
+      "spAtk": 127,
+      "spDef": 131,
+      "speed": 103
+    },
+    "training": {
+      "evYield": "3 Sp. Def",
+      "catchRate": "45 (5.9% with PokéBall, full HP)",
+      "baseFriendship": "0 (lower than normal)",
+      "baseExp": "257",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "120 (30,584–30,840 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/nihilego.png"
+  }
+]

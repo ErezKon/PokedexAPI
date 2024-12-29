@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using Newtonsoft.Json.Serialization;
 using PokedexAPI.Models;
 using System.Text.RegularExpressions;
 using static PokedexAPI.Logger;
@@ -15,8 +16,21 @@ namespace PokedexAPI.PokeDex
         private static readonly Dictionary<string, int> reverseDex = new();
         public Pokedex()
         {
-            var dexPath = Path.Combine(Directory.GetCurrentDirectory(), "Mocks", "detailed-pokedex.json");
+            var dexPath = Path.Combine(Directory.GetCurrentDirectory(), "Mocks", "detailed-pokedex-2.json");
             var detailedPokedexJson = File.ReadAllText(dexPath);
+
+            //var lst = JsonConvert.DeserializeObject<List<Pokemon>>(detailedPokedexJson);
+
+            //var parsed = lst
+            //    .ToDictionary(l => l.ID, l => l);
+
+            //var json = JsonConvert.SerializeObject(parsed,
+            //    Formatting.Indented,
+            //    new JsonSerializerSettings
+            //    {
+            //        ContractResolver = new CamelCasePropertyNamesContractResolver()
+            //    });
+            //File.WriteAllText(dexPath, json);
 
             var dex = JsonConvert.DeserializeObject<Dictionary<int, Pokemon>>(detailedPokedexJson);
             foreach (var entry in dex)
@@ -55,17 +69,35 @@ namespace PokedexAPI.PokeDex
 
         }
 
-        public List<Pokemon> GetAll()
+        public List<Pokemon> GetAll(bool includeDetails = false)
         {
-            return pokedex.Values
-                .Select(p => new Pokemon
-                {
-                    ID = p.ID,
-                    Name = p.Name,
-                    Weakness = p.Weakness,
-                    Type = p.Type,
-                    Image = p.Image,
-                }).ToList();
+            if(!includeDetails)
+            {
+                return pokedex.Values
+                    .Select(p => new Pokemon
+                    {
+                        ID = p.ID,
+                        Name = p.Name,
+                        Weakness = p.Weakness,
+                        Type = p.Type,
+                        Image = p.Image,
+                    })
+                    .ToList();
+            } 
+            else
+            {
+                return pokedex.Values
+                    .Select(p => new Pokemon
+                    {
+                        ID = p.ID,
+                        Name = p.Name,
+                        Weakness = p.Weakness,
+                        Type = p.Type,
+                        Image = p.Image,
+                        Details = p.Details
+                    })
+                    .ToList();
+            }
         }
 
         public int GetPokemonId(string name)

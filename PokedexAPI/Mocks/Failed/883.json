@@ -1,0 +1,55 @@
+[
+  {
+    "number": 883,
+    "name": "Arctovish",
+    "gen": 8,
+    "species": "Fossil Pokémon",
+    "types": [
+      "Water",
+      "Ice"
+    ],
+    "abilities": [
+      {
+        "name": "Water Absorb",
+        "description": "Restores HP if hit by a Water-type move.",
+        "hidden": false
+      },
+      {
+        "name": "Ice Body",
+        "description": "The Pokémon gradually regains HP in a hailstorm.",
+        "hidden": false
+      },
+      {
+        "name": "Slush Rush",
+        "description": "Boosts the Pokémon's Speed stat in a hailstorm.",
+        "hidden": true
+      }
+    ],
+    "height": "2.0 m (6′07″)",
+    "weight": "175.0 kg (385.8 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 90,
+      "attack": 90,
+      "defense": 100,
+      "spAtk": 80,
+      "spDef": 90,
+      "speed": 55
+    },
+    "training": {
+      "evYield": "2 Defense",
+      "catchRate": "45 (5.9% with PokéBall, full HP)",
+      "baseFriendship": "50 (normal)",
+      "baseExp": "177",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "35 (8,739–8,995 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/arctovish.png"
+  }
+]

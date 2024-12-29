@@ -1,0 +1,45 @@
+[
+  {
+    "number": 984,
+    "name": "Great Tusk",
+    "gen": 9,
+    "species": "Paradox Pokémon",
+    "types": [
+      "Ground",
+      "Fighting"
+    ],
+    "abilities": [
+      {
+        "name": "Protosynthesis",
+        "description": "Raises highest stat in harsh sunlight, or if holding Booster Energy.",
+        "hidden": false
+      }
+    ],
+    "height": "2.2 m (7′03″)",
+    "weight": "320.0 kg (705.5 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 115,
+      "attack": 131,
+      "defense": 131,
+      "spAtk": 53,
+      "spDef": 53,
+      "speed": 87
+    },
+    "training": {
+      "evYield": "3 Attack",
+      "catchRate": "30 (3.9% with PokéBall, full HP)",
+      "baseFriendship": "0 (lower than normal)",
+      "baseExp": "285",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "50 (12,594–12,850 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/great-tusk.png"
+  }
+]

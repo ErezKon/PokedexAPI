@@ -1,0 +1,46 @@
+[
+  {
+    "number": 806,
+    "name": "Blacephalon",
+    "codename": "UB Burst",
+    "gen": 7,
+    "species": "Fireworks Pokémon",
+    "types": [
+      "Fire",
+      "Ghost"
+    ],
+    "abilities": [
+      {
+        "name": "Beast Boost",
+        "description": "The Pokémon boosts its most proficient stat each time it knocks out a Pokémon.",
+        "hidden": false
+      }
+    ],
+    "height": "1.8 m (5′11″)",
+    "weight": "13.0 kg (28.7 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 53,
+      "attack": 127,
+      "defense": 53,
+      "spAtk": 151,
+      "spDef": 79,
+      "speed": 107
+    },
+    "training": {
+      "evYield": "3 Sp. Atk",
+      "catchRate": "30 (3.9% with PokéBall, full HP)",
+      "baseFriendship": "0 (lower than normal)",
+      "baseExp": "257",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "120 (30,584–30,840 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/blacephalon.png"
+  }
+]

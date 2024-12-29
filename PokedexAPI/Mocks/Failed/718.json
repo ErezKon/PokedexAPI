@@ -1,0 +1,45 @@
+[
+  {
+    "number": 718,
+    "name": "Zygarde (Complete Forme)",
+    "gen": 6,
+    "species": "Order Pokémon",
+    "types": [
+      "Dragon",
+      "Ground"
+    ],
+    "abilities": [
+      {
+        "name": "Power Construct",
+        "description": "Changes form when HP drops below half.",
+        "hidden": false
+      }
+    ],
+    "height": "4.5 m (14′09″)",
+    "weight": "610.0 kg (1344.8 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 216,
+      "attack": 100,
+      "defense": 121,
+      "spAtk": 91,
+      "spDef": 95,
+      "speed": 85
+    },
+    "training": {
+      "evYield": "3 HP",
+      "catchRate": "3 (0.4% with PokéBall, full HP)",
+      "baseFriendship": "0 (lower than normal)",
+      "baseExp": "319",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "120 (30,584–30,840 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/zygarde-complete.png"
+  }
+]

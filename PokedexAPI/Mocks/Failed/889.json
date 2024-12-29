@@ -1,0 +1,87 @@
+[
+  {
+    "number": 889,
+    "name": "Zamazenta (Hero of Many Battles)",
+    "gen": 8,
+    "species": "Warrior Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "abilities": [
+      {
+        "name": "Dauntless Shield",
+        "description": "Boosts Defense in battle.",
+        "hidden": false
+      }
+    ],
+    "height": "2.9 m (9′06″)",
+    "weight": "210.0 kg (463.0 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 92,
+      "attack": 120,
+      "defense": 115,
+      "spAtk": 80,
+      "spDef": 115,
+      "speed": 138
+    },
+    "training": {
+      "evYield": "3 Speed",
+      "catchRate": "10 (1.3% with PokéBall, full HP)",
+      "baseFriendship": "0 (lower than normal)",
+      "baseExp": "330",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "120 (30,584–30,840 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/zamazenta-hero.png"
+  },
+  {
+    "number": 889,
+    "name": "Zamazenta (Crowned Shield)",
+    "gen": 8,
+    "species": "Warrior Pokémon",
+    "types": [
+      "Fighting",
+      "Steel"
+    ],
+    "abilities": [
+      {
+        "name": "Dauntless Shield",
+        "description": "Boosts Defense in battle.",
+        "hidden": false
+      }
+    ],
+    "height": "2.9 m (9′06″)",
+    "weight": "785.0 kg (1730.6 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 92,
+      "attack": 120,
+      "defense": 140,
+      "spAtk": 80,
+      "spDef": 140,
+      "speed": 128
+    },
+    "training": {
+      "evYield": "3 Speed",
+      "catchRate": "10 (1.3% with PokéBall, full HP)",
+      "baseFriendship": "0 (lower than normal)",
+      "baseExp": "350",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "120 (30,584–30,840 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/zamazenta-crowned.png"
+  }
+]

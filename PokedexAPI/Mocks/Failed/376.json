@@ -1,0 +1,50 @@
+[
+  {
+    "number": 376,
+    "name": "Metagross",
+    "gen": 3,
+    "species": "Iron Leg Pokémon",
+    "types": [
+      "Steel",
+      "Psychic"
+    ],
+    "abilities": [
+      {
+        "name": "Clear Body",
+        "description": "Prevents other Pokémon from lowering its stats.",
+        "hidden": false
+      },
+      {
+        "name": "Light Metal",
+        "description": "Halves the Pokémon's weight.",
+        "hidden": true
+      }
+    ],
+    "height": "1.6 m (5′03″)",
+    "weight": "550.0 kg (1212.5 lbs)",
+    "mega": true,
+    "baseStats": {
+      "hp": 80,
+      "attack": 135,
+      "defense": 130,
+      "spAtk": 95,
+      "spDef": 90,
+      "speed": 70
+    },
+    "training": {
+      "evYield": "3 Defense",
+      "catchRate": "3 (0.4% with PokéBall, full HP)",
+      "baseFriendship": "35 (lower than normal)",
+      "baseExp": "270",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Mineral"
+      ],
+      "eggCycles": "40 (10,024–10,280 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/metagross.png"
+  }
+]

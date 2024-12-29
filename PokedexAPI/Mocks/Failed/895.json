@@ -1,0 +1,44 @@
+[
+  {
+    "number": 895,
+    "name": "Regidrago",
+    "gen": 8,
+    "species": "Dragon Orb Pokémon",
+    "types": [
+      "Dragon"
+    ],
+    "abilities": [
+      {
+        "name": "Dragon's Maw",
+        "description": "Powers up Dragon-type moves.",
+        "hidden": false
+      }
+    ],
+    "height": "2.1 m (6′11″)",
+    "weight": "200.0 kg (440.9 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 200,
+      "attack": 100,
+      "defense": 50,
+      "spAtk": 100,
+      "spDef": 50,
+      "speed": 80
+    },
+    "training": {
+      "evYield": "3 HP",
+      "catchRate": "3 (0.4% with PokéBall, full HP)",
+      "baseFriendship": "35 (lower than normal)",
+      "baseExp": "290",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "120 (30,584–30,840 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/regidrago.png"
+  }
+]

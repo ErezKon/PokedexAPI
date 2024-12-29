@@ -1,0 +1,50 @@
+[
+  {
+    "number": 786,
+    "name": "Tapu Lele",
+    "gen": 7,
+    "species": "Land Spirit Pokémon",
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "abilities": [
+      {
+        "name": "Psychic Surge",
+        "description": "The Pokémon creates a Psychic Terrain when it enters a battle.",
+        "hidden": false
+      },
+      {
+        "name": "Telepathy",
+        "description": "Anticipates an ally's attack and dodges it.",
+        "hidden": true
+      }
+    ],
+    "height": "1.2 m (3′11″)",
+    "weight": "18.6 kg (41.0 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 70,
+      "attack": 85,
+      "defense": 75,
+      "spAtk": 130,
+      "spDef": 115,
+      "speed": 95
+    },
+    "training": {
+      "evYield": "3 Sp. Atk",
+      "catchRate": "3 (0.4% with PokéBall, full HP)",
+      "baseFriendship": "50 (normal)",
+      "baseExp": "257",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "15 (3,599–3,855 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/tapu-lele.png"
+  }
+]

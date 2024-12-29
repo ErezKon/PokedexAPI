@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Mocks\Failed\" />
     <Folder Include="NewFolder\" />
   </ItemGroup>
 

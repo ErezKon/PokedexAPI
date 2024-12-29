@@ -1,0 +1,55 @@
+[
+  {
+    "number": 882,
+    "name": "Dracovish",
+    "gen": 8,
+    "species": "Fossil Pokémon",
+    "types": [
+      "Water",
+      "Dragon"
+    ],
+    "abilities": [
+      {
+        "name": "Water Absorb",
+        "description": "Restores HP if hit by a Water-type move.",
+        "hidden": false
+      },
+      {
+        "name": "Strong Jaw",
+        "description": "Boosts the power of biting moves.",
+        "hidden": false
+      },
+      {
+        "name": "Sand Rush",
+        "description": "Boosts the Pokémon's Speed in a sandstorm.",
+        "hidden": true
+      }
+    ],
+    "height": "2.3 m (7′07″)",
+    "weight": "215.0 kg (474.0 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 90,
+      "attack": 90,
+      "defense": 100,
+      "spAtk": 70,
+      "spDef": 80,
+      "speed": 75
+    },
+    "training": {
+      "evYield": "2 Defense",
+      "catchRate": "45 (5.9% with PokéBall, full HP)",
+      "baseFriendship": "50 (normal)",
+      "baseExp": "177",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "35 (8,739–8,995 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/dracovish.png"
+  }
+]

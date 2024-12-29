@@ -1,0 +1,51 @@
+[
+  {
+    "number": 703,
+    "name": "Carbink",
+    "gen": 6,
+    "species": "Jewel Pokémon",
+    "types": [
+      "Rock",
+      "Fairy"
+    ],
+    "abilities": [
+      {
+        "name": "Clear Body",
+        "description": "Prevents other Pokémon from lowering its stats.",
+        "hidden": false
+      },
+      {
+        "name": "Sturdy",
+        "description": "It cannot be knocked out with one hit.",
+        "hidden": true
+      }
+    ],
+    "height": "0.3 m (1′00″)",
+    "weight": "5.7 kg (12.6 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 50,
+      "attack": 50,
+      "defense": 150,
+      "spAtk": 50,
+      "spDef": 150,
+      "speed": 50
+    },
+    "training": {
+      "evYield": "1 Defense, 1 Sp. Def",
+      "catchRate": "60 (7.8% with PokéBall, full HP)",
+      "baseFriendship": "50 (normal)",
+      "baseExp": "100",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Fairy",
+        "Mineral"
+      ],
+      "eggCycles": "25 (6,169–6,425 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/carbink.png"
+  }
+]

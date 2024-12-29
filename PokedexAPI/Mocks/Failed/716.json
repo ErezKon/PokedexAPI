@@ -1,0 +1,44 @@
+[
+  {
+    "number": 716,
+    "name": "Xerneas",
+    "gen": 6,
+    "species": "Life Pokémon",
+    "types": [
+      "Fairy"
+    ],
+    "abilities": [
+      {
+        "name": "Fairy Aura",
+        "description": "Raises power of Fairy type moves for all Pokémon in battle.",
+        "hidden": false
+      }
+    ],
+    "height": "3.0 m (9′10″)",
+    "weight": "215.0 kg (474.0 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 126,
+      "attack": 131,
+      "defense": 95,
+      "spAtk": 131,
+      "spDef": 98,
+      "speed": 99
+    },
+    "training": {
+      "evYield": "3 HP",
+      "catchRate": "45 (5.9% with PokéBall, full HP)",
+      "baseFriendship": "0 (lower than normal)",
+      "baseExp": "306",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "120 (30,584–30,840 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/xerneas.png"
+  }
+]

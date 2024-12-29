@@ -1,0 +1,131 @@
+[
+  {
+    "number": 898,
+    "name": "Calyrex",
+    "gen": 8,
+    "species": "King Pokémon",
+    "types": [
+      "Psychic",
+      "Grass"
+    ],
+    "abilities": [
+      {
+        "name": "Unnerve",
+        "description": "Makes the foe nervous and unable to eat Berries.",
+        "hidden": false
+      }
+    ],
+    "height": "1.1 m (3′07″)",
+    "weight": "7.7 kg (17.0 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 100,
+      "attack": 80,
+      "defense": 80,
+      "spAtk": 80,
+      "spDef": 80,
+      "speed": 80
+    },
+    "training": {
+      "evYield": "3 HP",
+      "catchRate": "3 (0.4% with PokéBall, full HP)",
+      "baseFriendship": "100 (higher than normal)",
+      "baseExp": "250",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "120 (30,584–30,840 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/calyrex.png"
+  },
+  {
+    "number": 898,
+    "name": "Calyrex (Ice Rider)",
+    "gen": 8,
+    "species": "High King Pokémon",
+    "types": [
+      "Psychic",
+      "Ice"
+    ],
+    "abilities": [
+      {
+        "name": "As One",
+        "description": "Combines Unnerve and Chilling Neigh/Grim Neigh",
+        "hidden": false
+      }
+    ],
+    "height": "2.4 m (7′10″)",
+    "weight": "809.1 kg (1783.8 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 100,
+      "attack": 165,
+      "defense": 150,
+      "spAtk": 85,
+      "spDef": 130,
+      "speed": 50
+    },
+    "training": {
+      "evYield": "3 Attack",
+      "catchRate": "3 (0.4% with PokéBall, full HP)",
+      "baseFriendship": "100 (higher than normal)",
+      "baseExp": "340",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "120 (30,584–30,840 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/calyrex-ice-rider.png"
+  },
+  {
+    "number": 898,
+    "name": "Calyrex (Shadow Rider)",
+    "gen": 8,
+    "species": "High King Pokémon",
+    "types": [
+      "Psychic",
+      "Ghost"
+    ],
+    "abilities": [
+      {
+        "name": "As One",
+        "description": "Combines Unnerve and Chilling Neigh/Grim Neigh",
+        "hidden": false
+      }
+    ],
+    "height": "2.4 m (7′10″)",
+    "weight": "53.6 kg (118.2 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 100,
+      "attack": 85,
+      "defense": 80,
+      "spAtk": 165,
+      "spDef": 100,
+      "speed": 150
+    },
+    "training": {
+      "evYield": "3 Sp. Atk",
+      "catchRate": "3 (0.4% with PokéBall, full HP)",
+      "baseFriendship": "100 (higher than normal)",
+      "baseExp": "340",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "120 (30,584–30,840 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/calyrex-shadow-rider.png"
+  }
+]

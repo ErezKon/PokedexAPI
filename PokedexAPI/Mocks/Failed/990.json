@@ -1,0 +1,45 @@
+[
+  {
+    "number": 990,
+    "name": "Iron Treads",
+    "gen": 9,
+    "species": "Paradox Pokémon",
+    "types": [
+      "Ground",
+      "Steel"
+    ],
+    "abilities": [
+      {
+        "name": "Quark Drive",
+        "description": "Raises highest stat on Electric Terrain, or if holding Booster Energy.",
+        "hidden": false
+      }
+    ],
+    "height": "0.9 m (2′11″)",
+    "weight": "240.0 kg (529.1 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 90,
+      "attack": 112,
+      "defense": 120,
+      "spAtk": 72,
+      "spDef": 70,
+      "speed": 106
+    },
+    "training": {
+      "evYield": "3 Defense",
+      "catchRate": "30 (3.9% with PokéBall, full HP)",
+      "baseFriendship": "0 (lower than normal)",
+      "baseExp": "285",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "50 (12,594–12,850 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/iron-treads.png"
+  }
+]

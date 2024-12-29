@@ -1,0 +1,50 @@
+[
+  {
+    "number": 855,
+    "name": "Polteageist",
+    "gen": 8,
+    "species": "Black Tea Pokémon",
+    "types": [
+      "Ghost"
+    ],
+    "abilities": [
+      {
+        "name": "Weak Armor",
+        "description": "Physical attacks lower Defense and raise Speed.",
+        "hidden": false
+      },
+      {
+        "name": "Cursed Body",
+        "description": "May disable a move used on the Pokémon.",
+        "hidden": true
+      }
+    ],
+    "height": "0.2 m (0′08″)",
+    "weight": "0.4 kg (0.9 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 60,
+      "attack": 65,
+      "defense": 65,
+      "spAtk": 134,
+      "spDef": 114,
+      "speed": 70
+    },
+    "training": {
+      "evYield": "2 Sp. Atk",
+      "catchRate": "60 (7.8% with PokéBall, full HP)",
+      "baseFriendship": "50 (normal)",
+      "baseExp": "178",
+      "growthRate": "Medium Fast"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Amorphous",
+        "Mineral"
+      ],
+      "eggCycles": "20 (4,884–5,140 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/polteageist.png"
+  }
+]

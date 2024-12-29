@@ -1,0 +1,45 @@
+[
+  {
+    "number": 804,
+    "name": "Naganadel",
+    "gen": 7,
+    "species": "Poison Pin Pokémon",
+    "types": [
+      "Poison",
+      "Dragon"
+    ],
+    "abilities": [
+      {
+        "name": "Beast Boost",
+        "description": "The Pokémon boosts its most proficient stat each time it knocks out a Pokémon.",
+        "hidden": false
+      }
+    ],
+    "height": "3.6 m (11′10″)",
+    "weight": "150.0 kg (330.7 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 73,
+      "attack": 73,
+      "defense": 73,
+      "spAtk": 127,
+      "spDef": 73,
+      "speed": 121
+    },
+    "training": {
+      "evYield": "3 Sp. Atk",
+      "catchRate": "45 (5.9% with PokéBall, full HP)",
+      "baseFriendship": "0 (lower than normal)",
+      "baseExp": "243",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "120 (30,584–30,840 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/naganadel.png"
+  }
+]

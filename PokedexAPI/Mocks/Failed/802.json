@@ -1,0 +1,45 @@
+[
+  {
+    "number": 802,
+    "name": "Marshadow",
+    "gen": 7,
+    "species": "Gloomdweller Pokémon",
+    "types": [
+      "Fighting",
+      "Ghost"
+    ],
+    "abilities": [
+      {
+        "name": "Technician",
+        "description": "Powers up the Pokémon's weaker moves.",
+        "hidden": false
+      }
+    ],
+    "height": "0.7 m (2′04″)",
+    "weight": "22.2 kg (48.9 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 90,
+      "attack": 125,
+      "defense": 80,
+      "spAtk": 90,
+      "spDef": 90,
+      "speed": 125
+    },
+    "training": {
+      "evYield": "2 Attack, 1 Speed",
+      "catchRate": "3 (0.4% with PokéBall, full HP)",
+      "baseFriendship": "0 (lower than normal)",
+      "baseExp": "270",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "120 (30,584–30,840 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/marshadow.png"
+  }
+]

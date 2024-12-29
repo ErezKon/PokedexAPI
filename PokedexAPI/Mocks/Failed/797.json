@@ -1,0 +1,46 @@
+[
+  {
+    "number": 797,
+    "name": "Celesteela",
+    "codename": "UB-04 Blaster",
+    "gen": 7,
+    "species": "Launch Pokémon",
+    "types": [
+      "Steel",
+      "Flying"
+    ],
+    "abilities": [
+      {
+        "name": "Beast Boost",
+        "description": "The Pokémon boosts its most proficient stat each time it knocks out a Pokémon.",
+        "hidden": false
+      }
+    ],
+    "height": "9.2 m (30′02″)",
+    "weight": "999.9 kg (2204.4 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 97,
+      "attack": 101,
+      "defense": 103,
+      "spAtk": 107,
+      "spDef": 101,
+      "speed": 61
+    },
+    "training": {
+      "evYield": "1 Attack, 1 Defense, 1 Sp. Atk",
+      "catchRate": "45 (5.9% with PokéBall, full HP)",
+      "baseFriendship": "0 (lower than normal)",
+      "baseExp": "257",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "120 (30,584–30,840 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/celesteela.png"
+  }
+]

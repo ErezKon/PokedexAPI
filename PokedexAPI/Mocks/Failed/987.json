@@ -1,0 +1,45 @@
+[
+  {
+    "number": 987,
+    "name": "Flutter Mane",
+    "gen": 9,
+    "species": "Paradox Pokémon",
+    "types": [
+      "Ghost",
+      "Fairy"
+    ],
+    "abilities": [
+      {
+        "name": "Protosynthesis",
+        "description": "Raises highest stat in harsh sunlight, or if holding Booster Energy.",
+        "hidden": false
+      }
+    ],
+    "height": "1.4 m (4′07″)",
+    "weight": "4.0 kg (8.8 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 55,
+      "attack": 55,
+      "defense": 55,
+      "spAtk": 135,
+      "spDef": 135,
+      "speed": 135
+    },
+    "training": {
+      "evYield": "1 Sp. Atk, 1 Sp. Def, 1 Speed",
+      "catchRate": "30 (3.9% with PokéBall, full HP)",
+      "baseFriendship": "0 (lower than normal)",
+      "baseExp": "285",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "50 (12,594–12,850 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/flutter-mane.png"
+  }
+]

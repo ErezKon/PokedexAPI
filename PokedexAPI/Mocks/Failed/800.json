@@ -1,0 +1,173 @@
+[
+  {
+    "number": 800,
+    "name": "Necrozma",
+    "gen": 7,
+    "species": "Prism Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "abilities": [
+      {
+        "name": "Prism Armor",
+        "description": "Reduces damage from super-effective attacks.",
+        "hidden": false
+      }
+    ],
+    "height": "2.4 m (7′10″)",
+    "weight": "230.0 kg (507.1 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 97,
+      "attack": 107,
+      "defense": 101,
+      "spAtk": 127,
+      "spDef": 89,
+      "speed": 79
+    },
+    "training": {
+      "evYield": "1 Attack, 2 Sp. Atk",
+      "catchRate": "255 (33.3% with PokéBall, full HP)",
+      "baseFriendship": "0 (lower than normal)",
+      "baseExp": "270",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "120 (30,584–30,840 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/necrozma.png"
+  },
+  {
+    "number": 800,
+    "name": "Dusk Mane Necrozma",
+    "gen": 7,
+    "species": "Prism Pokémon",
+    "types": [
+      "Psychic",
+      "Steel"
+    ],
+    "abilities": [
+      {
+        "name": "Prism Armor",
+        "description": "Reduces damage from super-effective attacks.",
+        "hidden": false
+      }
+    ],
+    "height": "3.8 m (12′06″)",
+    "weight": "460.0 kg (1014.1 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 97,
+      "attack": 157,
+      "defense": 127,
+      "spAtk": 113,
+      "spDef": 109,
+      "speed": 77
+    },
+    "training": {
+      "evYield": "3 Attack",
+      "catchRate": "3 (0.4% with PokéBall, full HP)",
+      "baseFriendship": "0 (lower than normal)",
+      "baseExp": "306",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "120 (30,584–30,840 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/necrozma-dusk-mane.png"
+  },
+  {
+    "number": 800,
+    "name": "Dawn Wings Necrozma",
+    "gen": 7,
+    "species": "Prism Pokémon",
+    "types": [
+      "Psychic",
+      "Ghost"
+    ],
+    "abilities": [
+      {
+        "name": "Prism Armor",
+        "description": "Reduces damage from super-effective attacks.",
+        "hidden": false
+      }
+    ],
+    "height": "4.2 m (13′09″)",
+    "weight": "350.0 kg (771.6 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 97,
+      "attack": 113,
+      "defense": 109,
+      "spAtk": 157,
+      "spDef": 127,
+      "speed": 77
+    },
+    "training": {
+      "evYield": "3 Sp. Atk",
+      "catchRate": "3 (0.4% with PokéBall, full HP)",
+      "baseFriendship": "0 (lower than normal)",
+      "baseExp": "306",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "120 (30,584–30,840 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/necrozma-dawn-wings.png"
+  },
+  {
+    "number": 800,
+    "name": "Ultra Necrozma",
+    "gen": 7,
+    "species": "Prism Pokémon",
+    "types": [
+      "Psychic",
+      "Dragon"
+    ],
+    "abilities": [
+      {
+        "name": "Neuroforce",
+        "description": "Powers up moves that are super effective.",
+        "hidden": false
+      }
+    ],
+    "height": "7.5 m (24′07″)",
+    "weight": "230.0 kg (507.1 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 97,
+      "attack": 167,
+      "defense": 97,
+      "spAtk": 167,
+      "spDef": 97,
+      "speed": 129
+    },
+    "training": {
+      "evYield": "1 Attack, 1 Sp. Atk, 1 Speed",
+      "catchRate": "3 (0.4% with PokéBall, full HP)",
+      "baseFriendship": "0 (lower than normal)",
+      "baseExp": "339",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "120 (30,584–30,840 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/necrozma-ultra.png"
+  }
+]

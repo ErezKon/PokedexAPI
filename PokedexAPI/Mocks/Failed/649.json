@@ -1,0 +1,45 @@
+[
+  {
+    "number": 649,
+    "name": "Genesect",
+    "gen": 5,
+    "species": "Paleozoic Pokémon",
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "abilities": [
+      {
+        "name": "Download",
+        "description": "Adjusts power according to a foe's defenses.",
+        "hidden": false
+      }
+    ],
+    "height": "1.5 m (4′11″)",
+    "weight": "82.5 kg (181.9 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 71,
+      "attack": 120,
+      "defense": 95,
+      "spAtk": 120,
+      "spDef": 95,
+      "speed": 99
+    },
+    "training": {
+      "evYield": "1 Attack, 1 Sp. Atk, 1 Speed",
+      "catchRate": "3 (0.4% with PokéBall, full HP)",
+      "baseFriendship": "0 (lower than normal)",
+      "baseExp": "270",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "120 (30,584–30,840 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/genesect.png"
+  }
+]

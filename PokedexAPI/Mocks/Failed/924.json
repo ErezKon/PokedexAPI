@@ -1,0 +1,55 @@
+[
+  {
+    "number": 924,
+    "name": "Tandemaus",
+    "gen": 9,
+    "species": "Couple Pokémon",
+    "types": [
+      "Normal"
+    ],
+    "abilities": [
+      {
+        "name": "Run Away",
+        "description": "Enables a sure getaway from wild Pokémon.",
+        "hidden": false
+      },
+      {
+        "name": "Pickup",
+        "description": "The Pokémon may pick up items.",
+        "hidden": false
+      },
+      {
+        "name": "Own Tempo",
+        "description": "Prevents the Pokémon from becoming confused.",
+        "hidden": true
+      }
+    ],
+    "height": "0.3 m (1′00″)",
+    "weight": "1.8 kg (4.0 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 50,
+      "attack": 50,
+      "defense": 45,
+      "spAtk": 40,
+      "spDef": 45,
+      "speed": 75
+    },
+    "training": {
+      "evYield": "1 Speed",
+      "catchRate": "150 (19.6% with PokéBall, full HP)",
+      "baseFriendship": "50 (normal)",
+      "baseExp": "61",
+      "growthRate": "Fast"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Fairy",
+        "Field"
+      ],
+      "eggCycles": "10 (2,314–2,570 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/tandemaus.png"
+  }
+]

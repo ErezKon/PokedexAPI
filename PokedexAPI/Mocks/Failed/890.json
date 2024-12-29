@@ -1,0 +1,83 @@
+[
+  {
+    "number": 890,
+    "name": "Eternatus",
+    "gen": 8,
+    "species": "Gigantic Pokémon",
+    "types": [
+      "Poison",
+      "Dragon"
+    ],
+    "abilities": [
+      {
+        "name": "Pressure",
+        "description": "The Pokémon raises the foe's PP usage.",
+        "hidden": false
+      }
+    ],
+    "height": "20.0 m (65′07″)",
+    "weight": "950.0 kg (2094.4 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 140,
+      "attack": 85,
+      "defense": 95,
+      "spAtk": 145,
+      "spDef": 95,
+      "speed": 130
+    },
+    "training": {
+      "evYield": "3 HP",
+      "catchRate": "255 (33.3% with PokéBall, full HP)",
+      "baseFriendship": "0 (lower than normal)",
+      "baseExp": "345",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "120 (30,584–30,840 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/eternatus.png"
+  },
+  {
+    "number": 890,
+    "name": "Eternatus (Eternamax)",
+    "gen": 8,
+    "species": "Gigantic Pokémon",
+    "types": [
+      "Poison",
+      "Dragon"
+    ],
+    "abilities": [
+    ],
+    "height": "100.0 m (328′01″)",
+    "weight": "—",
+    "mega": false,
+    "baseStats": {
+      "hp": 255,
+      "attack": 115,
+      "defense": 250,
+      "spAtk": 125,
+      "spDef": 250,
+      "speed": 130
+    },
+    "training": {
+      "evYield": "3 HP",
+      "catchRate": "—",
+      "baseFriendship": "0 (lower than normal)",
+      "baseExp": "563",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "—",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "120 (30,584–30,840 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/eternatus-eternamax.png"
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "number": 643,
+    "name": "Reshiram",
+    "gen": 5,
+    "species": "Vast White Pokémon",
+    "types": [
+      "Dragon",
+      "Fire"
+    ],
+    "abilities": [
+      {
+        "name": "Turboblaze",
+        "description": "Moves can be used regardless of Abilities.",
+        "hidden": false
+      }
+    ],
+    "height": "3.2 m (10′06″)",
+    "weight": "330.0 kg (727.5 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 100,
+      "attack": 120,
+      "defense": 100,
+      "spAtk": 150,
+      "spDef": 120,
+      "speed": 90
+    },
+    "training": {
+      "evYield": "3 Sp. Atk",
+      "catchRate": "3 (0.4% with PokéBall, full HP)",
+      "baseFriendship": "0 (lower than normal)",
+      "baseExp": "306",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "120 (30,584–30,840 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/reshiram.png"
+  }
+]

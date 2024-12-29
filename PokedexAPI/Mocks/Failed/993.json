@@ -1,0 +1,45 @@
+[
+  {
+    "number": 993,
+    "name": "Iron Jugulis",
+    "gen": 9,
+    "species": "Paradox Pokémon",
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "abilities": [
+      {
+        "name": "Quark Drive",
+        "description": "Raises highest stat on Electric Terrain, or if holding Booster Energy.",
+        "hidden": false
+      }
+    ],
+    "height": "1.3 m (4′03″)",
+    "weight": "111.0 kg (244.7 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 94,
+      "attack": 80,
+      "defense": 86,
+      "spAtk": 122,
+      "spDef": 80,
+      "speed": 108
+    },
+    "training": {
+      "evYield": "3 Sp. Atk",
+      "catchRate": "30 (3.9% with PokéBall, full HP)",
+      "baseFriendship": "0 (lower than normal)",
+      "baseExp": "285",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "50 (12,594–12,850 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/iron-jugulis.png"
+  }
+]

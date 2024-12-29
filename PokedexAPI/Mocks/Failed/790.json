@@ -1,0 +1,44 @@
+[
+  {
+    "number": 790,
+    "name": "Cosmoem",
+    "gen": 7,
+    "species": "Protostar Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "abilities": [
+      {
+        "name": "Sturdy",
+        "description": "It cannot be knocked out with one hit.",
+        "hidden": false
+      }
+    ],
+    "height": "0.1 m (0′04″)",
+    "weight": "999.9 kg (2204.4 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 43,
+      "attack": 29,
+      "defense": 131,
+      "spAtk": 29,
+      "spDef": 131,
+      "speed": 37
+    },
+    "training": {
+      "evYield": "1 Defense, 1 Sp. Def",
+      "catchRate": "45 (5.9% with PokéBall, full HP)",
+      "baseFriendship": "0 (lower than normal)",
+      "baseExp": "140",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "120 (30,584–30,840 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/cosmoem.png"
+  }
+]

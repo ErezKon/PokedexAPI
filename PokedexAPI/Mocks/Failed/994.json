@@ -1,0 +1,45 @@
+[
+  {
+    "number": 994,
+    "name": "Iron Moth",
+    "gen": 9,
+    "species": "Paradox Pokémon",
+    "types": [
+      "Fire",
+      "Poison"
+    ],
+    "abilities": [
+      {
+        "name": "Quark Drive",
+        "description": "Raises highest stat on Electric Terrain, or if holding Booster Energy.",
+        "hidden": false
+      }
+    ],
+    "height": "1.2 m (3′11″)",
+    "weight": "36.0 kg (79.4 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 80,
+      "attack": 70,
+      "defense": 60,
+      "spAtk": 140,
+      "spDef": 110,
+      "speed": 110
+    },
+    "training": {
+      "evYield": "3 Sp. Atk",
+      "catchRate": "30 (3.9% with PokéBall, full HP)",
+      "baseFriendship": "0 (lower than normal)",
+      "baseExp": "285",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "50 (12,594–12,850 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/iron-moth.png"
+  }
+]

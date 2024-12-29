@@ -1,0 +1,45 @@
+[
+  {
+    "number": 1010,
+    "name": "Iron Leaves",
+    "gen": 9,
+    "species": "Paradox Pokémon",
+    "types": [
+      "Grass",
+      "Psychic"
+    ],
+    "abilities": [
+      {
+        "name": "Quark Drive",
+        "description": "Raises highest stat on Electric Terrain, or if holding Booster Energy.",
+        "hidden": false
+      }
+    ],
+    "height": "1.5 m (4′11″)",
+    "weight": "125.0 kg (275.6 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 90,
+      "attack": 130,
+      "defense": 88,
+      "spAtk": 70,
+      "spDef": 108,
+      "speed": 104
+    },
+    "training": {
+      "evYield": "—",
+      "catchRate": "—",
+      "baseFriendship": "—",
+      "baseExp": "—",
+      "growthRate": "—"
+    },
+    "breeding": {
+      "gender": "—",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "—"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/iron-leaves.png"
+  }
+]

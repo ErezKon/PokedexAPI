@@ -1,0 +1,50 @@
+[
+  {
+    "number": 787,
+    "name": "Tapu Bulu",
+    "gen": 7,
+    "species": "Land Spirit Pokémon",
+    "types": [
+      "Grass",
+      "Fairy"
+    ],
+    "abilities": [
+      {
+        "name": "Grassy Surge",
+        "description": "The Pokémon creates a Grassy Terrain when it enters a battle.",
+        "hidden": false
+      },
+      {
+        "name": "Telepathy",
+        "description": "Anticipates an ally's attack and dodges it.",
+        "hidden": true
+      }
+    ],
+    "height": "1.9 m (6′03″)",
+    "weight": "45.5 kg (100.3 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 70,
+      "attack": 130,
+      "defense": 115,
+      "spAtk": 85,
+      "spDef": 95,
+      "speed": 75
+    },
+    "training": {
+      "evYield": "3 Attack",
+      "catchRate": "3 (0.4% with PokéBall, full HP)",
+      "baseFriendship": "50 (normal)",
+      "baseExp": "257",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "15 (3,599–3,855 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/tapu-bulu.png"
+  }
+]

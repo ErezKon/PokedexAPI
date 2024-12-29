@@ -1,0 +1,45 @@
+[
+  {
+    "number": 995,
+    "name": "Iron Thorns",
+    "gen": 9,
+    "species": "Paradox Pokémon",
+    "types": [
+      "Rock",
+      "Electric"
+    ],
+    "abilities": [
+      {
+        "name": "Quark Drive",
+        "description": "Raises highest stat on Electric Terrain, or if holding Booster Energy.",
+        "hidden": false
+      }
+    ],
+    "height": "1.6 m (5′03″)",
+    "weight": "303.0 kg (668.0 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 100,
+      "attack": 134,
+      "defense": 110,
+      "spAtk": 70,
+      "spDef": 84,
+      "speed": 72
+    },
+    "training": {
+      "evYield": "3 Attack",
+      "catchRate": "30 (3.9% with PokéBall, full HP)",
+      "baseFriendship": "0 (lower than normal)",
+      "baseExp": "285",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "50 (12,594–12,850 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/iron-thorns.png"
+  }
+]

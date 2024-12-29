@@ -1,0 +1,44 @@
+[
+  {
+    "number": 772,
+    "name": "Type: Null",
+    "gen": 7,
+    "species": "Synthetic Pokémon",
+    "types": [
+      "Normal"
+    ],
+    "abilities": [
+      {
+        "name": "Battle Armor",
+        "description": "The Pokémon is protected against critical hits.",
+        "hidden": false
+      }
+    ],
+    "height": "1.9 m (6′03″)",
+    "weight": "120.5 kg (265.7 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 95,
+      "attack": 95,
+      "defense": 95,
+      "spAtk": 95,
+      "spDef": 95,
+      "speed": 59
+    },
+    "training": {
+      "evYield": "2 HP",
+      "catchRate": "3 (0.4% with PokéBall, full HP)",
+      "baseFriendship": "0 (lower than normal)",
+      "baseExp": "107",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "120 (30,584–30,840 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/type-null.png"
+  }
+]

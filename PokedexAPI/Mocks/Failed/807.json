@@ -1,0 +1,44 @@
+[
+  {
+    "number": 807,
+    "name": "Zeraora",
+    "gen": 7,
+    "species": "Thunderclap Pokémon",
+    "types": [
+      "Electric"
+    ],
+    "abilities": [
+      {
+        "name": "Volt Absorb",
+        "description": "Restores HP if hit by an Electric-type move.",
+        "hidden": false
+      }
+    ],
+    "height": "1.5 m (4′11″)",
+    "weight": "44.5 kg (98.1 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 88,
+      "attack": 112,
+      "defense": 75,
+      "spAtk": 102,
+      "spDef": 80,
+      "speed": 143
+    },
+    "training": {
+      "evYield": "3 Speed",
+      "catchRate": "3 (0.4% with PokéBall, full HP)",
+      "baseFriendship": "0 (lower than normal)",
+      "baseExp": "270",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "120 (30,584–30,840 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/zeraora.png"
+  }
+]

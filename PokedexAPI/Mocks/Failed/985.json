@@ -1,0 +1,45 @@
+[
+  {
+    "number": 985,
+    "name": "Scream Tail",
+    "gen": 9,
+    "species": "Paradox Pokémon",
+    "types": [
+      "Fairy",
+      "Psychic"
+    ],
+    "abilities": [
+      {
+        "name": "Protosynthesis",
+        "description": "Raises highest stat in harsh sunlight, or if holding Booster Energy.",
+        "hidden": false
+      }
+    ],
+    "height": "1.2 m (3′11″)",
+    "weight": "8.0 kg (17.6 lbs)",
+    "mega": false,
+    "baseStats": {
+      "hp": 115,
+      "attack": 65,
+      "defense": 99,
+      "spAtk": 65,
+      "spDef": 115,
+      "speed": 111
+    },
+    "training": {
+      "evYield": "3 HP",
+      "catchRate": "50 (6.5% with PokéBall, full HP)",
+      "baseFriendship": "0 (lower than normal)",
+      "baseExp": "285",
+      "growthRate": "Slow"
+    },
+    "breeding": {
+      "gender": "Genderless",
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "eggCycles": "50 (12,594–12,850 steps)"
+    },
+    "sprite": "https://img.pokemondb.net/sprites/home/normal/scream-tail.png"
+  }
+]
